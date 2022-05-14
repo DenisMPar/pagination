@@ -1,0 +1,27 @@
+{
+  "name": "vercel-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DenisMPar/vercel-api.git",
+  "author": "DenisMPar <paradadenismartin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
+  },
+  "dependencies": {
+    "airtable": "^0.11.3",
+    "algoliasearch": "^4.13.0",
+    "micro": "^9.3.4",
+    "micro-method-router": "^0.1.0",
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^18.0.1",
+    "typescript": "^4.6.3"
+  }
+}
